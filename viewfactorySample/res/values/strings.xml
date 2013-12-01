@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ViewFactorySample</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="my_library">我是一个Group， 惦记我。。。</string>
+    <string name="totoal_count"></string>
+
+</resources>

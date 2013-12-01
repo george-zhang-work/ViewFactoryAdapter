@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null" >
+
+    <TextView
+        android:id="@+id/zero_txt_vw"
+        style="@android:style/TextAppearance.Holo.Large"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/holo_blue_light"
+        android:gravity="center_vertical"
+        android:text="@string/my_library" />
+
+    <View
+        android:id="@+id/horizonta_divider"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@+id/zero_txt_vw"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/one_txt_vw"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/horizonta_divider"
+        android:layout_below="@+id/zero_txt_vw"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center_vertical"
+        android:text="@string/totoal_count" />
+
+    <TextView
+        android:id="@+id/two_txt_vw"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/horizonta_divider"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/zero_txt_vw"
+        android:background="@android:color/holo_orange_light"
+        android:gravity="center_vertical"
+        android:text="@string/totoal_count" />
+
+    <TextView
+        android:id="@+id/three_txt_vw"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/horizonta_divider"
+        android:layout_below="@+id/one_txt_vw"
+        android:background="@android:color/holo_red_light"
+        android:gravity="center_vertical"
+        android:text="@string/totoal_count" />
+
+    <TextView
+        android:id="@+id/four_txt_vw"
+        style="@android:style/TextAppearance.Holo.Medium"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/horizonta_divider"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/two_txt_vw"
+        android:background="@android:color/holo_purple"
+        android:gravity="center_vertical"
+        android:text="@string/totoal_count" />
+
+</RelativeLayout>
